@@ -8,6 +8,7 @@
 
 ## Introducción
 **Objetivo:** Aplicar Git, GitHub y Pandas para gestionar versiones y preprocesar datasets.
+
 **Funcialidades implementadas:**
 - Manejo de valores nulos (media, mediana, eliminación)
 - Normalización Min-Max
@@ -35,25 +36,25 @@ Se creó un workflow (`.github/workflows/preprocesamiento.yml`) que:
 ## Capturas de pantalla
 
 ### 1. Comandos iniciales y primer push
-![Comandos iniciales](./capturas/Captura1_comandos_iniciales.png)
+![Comandos iniciales](./capturas/Captura1_comandos_iniciales.PNG)
 
 ### 2. Creación de rama y push del script
-![Rama feature-preprocesamiento](./capturas/Captura2_creacion_rama_y_push.png)
+![Rama feature-preprocesamiento](./capturas/Captura2_creacion_rama_y_push.PNG)
 
 ### 3. Pull request creado en GitHub
-![Pull request](./capturas/Captura3_pull_request_creado.png)
+![Pull request](./capturas/Captura3_pull_request_creado.PNG)
 
 ### 4. Fusión (merge) exitosa
-![Merge exitoso](./capturas/Captura4_merge_exitoso.png)
+![Merge exitoso](./capturas/Captura4_merge_exitoso.PNG)
 
 ### 5. Sincronización de main local
-![Sincronización](./capturas/Captura5_sincronizacion_main.png)
+![Sincronización](./capturas/Captura5_sincronizacion_main.PNG)
 
 ### 6. Workflow de Actions exitoso (lista)
-![Workflow exitoso lista](./capturas/Captura6_workflow_exitoso_lista.png)
+![Workflow exitoso lista](./capturas/Captura6_workflow_exitoso_lista.PNG)
 
 ### 7. Detalle del job en Actions
-![Detalle del job](./capturas/Captura7_detalle_job.png)
+![Detalle del job](./capturas/Captura7_detalle_job.PNG)
 
 ## Enlace Repositorio
 https://github.com/JoaVilGX/preprocesamiento-ciencia-datos
