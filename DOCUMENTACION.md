@@ -10,6 +10,7 @@
 **Objetivo:** Aplicar Git, GitHub y Pandas para gestionar versiones y preprocesar datasets.
 
 **Funcialidades implementadas:**
+
 - Manejo de valores nulos (media, mediana, eliminación)
 - Normalización Min-Max
 - Codificación one-hot / label
@@ -29,6 +30,7 @@
 
 ## Automatización con GitHub Actions
 Se creó un workflow (`.github/workflows/preprocesamiento.yml`) que:
+
 - Se ejecuta en cada `push` o `pull request` hacia `main`
 - Instala pandas, numpy y scikit-learn
 - Corre el script `preprocesamiento.py` para verificar que no haya errores
