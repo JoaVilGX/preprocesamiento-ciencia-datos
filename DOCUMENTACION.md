@@ -9,7 +9,7 @@
 ## Introducción
 **Objetivo:** Aplicar Git, GitHub y Pandas para gestionar versiones y preprocesar datasets.
 
-**Funcialidades implementadas:**
+**Funcionalidades implementadas:**
 
 - Manejo de valores nulos (media, mediana, eliminación)
 - Normalización Min-Max
