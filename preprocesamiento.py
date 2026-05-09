@@ -119,7 +119,26 @@ def preprocesamiento_completo(df, estrategia_nulos='media', metodo_codificacion=
     print("--- Preprocesamiento completado ---\n")
     return df_limpio
 
+def demo():
+    print("\n EJECUTANDO DEMO DE PRUEBA (sin argumentos)\n")
+    datos_demo = {
+        'edad': [25, 30, None, 35, 30, None],
+        'ciudad': ['Madrid', 'Barcelona', 'Madrid', 'Valencia', 'Barcelona', 'Madrid'],
+        'ingreso': [30000, 45000, 50000, None, 45000, 50000]
+    }
+    df = pd.DataFrame(datos_demo)
+    print("Dataset original:")
+    print(df)
+    df_proc = preprocesamiento_completo(df)
+    print("\nDataset procesado:")
+    print(df_proc)
+    print("\n Demo completada exitosamente.")
+
 def main():
+    if len (sys.argv) == 1:
+        # Sin argumentos -> ejecutar demo
+        demo()
+        return
     parser = argparse.ArgumentParser(description='Preprocesamiento completo de un dataset CSV')
     parser.add_argument('input', help='Ruta del archivo CSV de entrada')
     parser.add_argument('output', help='Ruta del archivo CSV de salida')
