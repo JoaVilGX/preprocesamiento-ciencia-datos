@@ -9,7 +9,7 @@ preprocesamiento-ciencia-datos/
 ├── .github/
 │   └── workflows/
 │       └── preprocesamiento.yml
-├── capturas/                  (carpeta para tus screenshots)
+├── capturas/
 ├── .gitignore
 ├── README.md
 ├── preprocesamiento.py
