@@ -1,5 +1,11 @@
 # Documentación del proyecto de preprocesamiento
 
+Nombres: Joaquin Villacreses Moreno
+Fecha: 10/05/2026
+Carrera: Ciencia de Datos
+Periodo académico: 2026-1S
+Semestre: Tercero "A"
+
 ## Introducción
 **Objetivo:** Aplicar Git, GitHub y Pandas para gestionar versiones y preprocesar datasets.
 **Funcialidades implementadas:**
@@ -48,3 +54,6 @@ Se creó un workflow (`.github/workflows/preprocesamiento.yml`) que:
 
 ### 7. Detalle del job en Actions
 ![Detalle del job](./capturas/Captura7_detalle_job.png)
+
+## Enlace Repositorio
+https://github.com/JoaVilGX/preprocesamiento-ciencia-datos
