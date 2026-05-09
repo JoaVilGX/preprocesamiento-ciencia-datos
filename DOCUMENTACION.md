@@ -1,10 +1,10 @@
 # Documentación del proyecto de preprocesamiento
 
-Nombres: Joaquin Villacreses Moreno
-Fecha: 10/05/2026
-Carrera: Ciencia de Datos
-Periodo académico: 2026-1S
-Semestre: Tercero "A"
+- Nombres: Joaquin Villacreses Moreno
+- Fecha: 10/05/2026
+- Carrera: Ciencia de Datos
+- Periodo académico: 2026-1S
+- Semestre: Tercero "A"
 
 ## Introducción
 **Objetivo:** Aplicar Git, GitHub y Pandas para gestionar versiones y preprocesar datasets.
